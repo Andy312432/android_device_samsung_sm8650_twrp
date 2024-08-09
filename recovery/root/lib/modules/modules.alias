@@ -395,6 +395,9 @@ alias usb:v1A0Ap0104d*dc*dsc*dp*ic*isc*ip*in* ehset
 alias usb:v1A0Ap0106d*dc*dsc*dp*ic*isc*ip*in* ehset
 alias usb:v1A0Ap0107d*dc*dsc*dp*ic*isc*ip*in* ehset
 alias usb:v1A0Ap0108d*dc*dsc*dp*ic*isc*ip*in* ehset
+alias i2c:cps4038-charger cps4038_charger
+alias of:N*T*Ccps,cps4038-charger cps4038_charger
+alias of:N*T*Ccps,cps4038-chargerC* cps4038_charger
 alias of:N*T*Cqcom,pm8916-pon qcom_pon
 alias of:N*T*Cqcom,pm8916-ponC* qcom_pon
 alias of:N*T*Cqcom,pms405-pon qcom_pon
@@ -411,12 +414,8 @@ alias of:N*T*Carm,coresight-static-replicator coresight_replicator
 alias of:N*T*Carm,coresight-static-replicatorC* coresight_replicator
 alias amba:d???BB909 coresight_replicator
 alias amba:d???BB9EC coresight_replicator
-alias i2c:max77705 mfd_max77705
-alias of:N*T*Cmaxim,max77705 mfd_max77705
-alias of:N*T*Cmaxim,max77705C* mfd_max77705
 alias platform:hdmi-audio-codec snd_soc_hdmi_codec
 alias usbfunc:ccid usb_f_ccid
-alias i2c:wacom_wez02 wez02
 alias of:N*T*Csamsung,sec-direct-charger sec_direct_charger
 alias of:N*T*Csamsung,sec-direct-chargerC* sec_direct_charger
 alias of:N*T*Cqcom,usb-snps-eusb2-phy phy_msm_snps_eusb2
@@ -445,11 +444,6 @@ alias of:N*T*Cqcom,msm8974-tcsr-mutex qcom_hwspinlock
 alias of:N*T*Cqcom,msm8974-tcsr-mutexC* qcom_hwspinlock
 alias of:N*T*Cqcom,msm8994-tcsr-mutex qcom_hwspinlock
 alias of:N*T*Cqcom,msm8994-tcsr-mutexC* qcom_hwspinlock
-alias of:N*T*Cvl53l8 stmvl53l8
-alias of:N*T*Cvl53l8C* stmvl53l8
-alias of:N*T*Crange_sensor stmvl53l8
-alias of:N*T*Crange_sensorC* stmvl53l8
-alias spi:range_sensor stmvl53l8
 alias of:N*T*Csamsung,upload_cause sec_upload_cause
 alias of:N*T*Csamsung,upload_causeC* sec_upload_cause
 alias amba:d???[37BF]B968 coresight_tpdm
@@ -495,9 +489,6 @@ alias of:N*T*Cqcom,va-minidump qcom_va_minidump
 alias of:N*T*Cqcom,va-minidumpC* qcom_va_minidump
 alias usb:v0424p7500d*dc*dsc*dp*ic*isc*ip*in* smsc75xx
 alias usb:v0424p7505d*dc*dsc*dp*ic*isc*ip*in* smsc75xx
-alias i2c:nu1668-charger nu1668_charger
-alias of:N*T*Cnuvolta,nu1668-charger nu1668_charger
-alias of:N*T*Cnuvolta,nu1668-chargerC* nu1668_charger
 alias of:N*T*Cqcom,logbuf-vendor-hooks qcom_logbuf_vendor_hooks
 alias of:N*T*Cqcom,logbuf-vendor-hooksC* qcom_logbuf_vendor_hooks
 alias of:N*T*Cqcom,ufs-phy-qmp-v4 phy_qcom_ufs_qmp_v4
