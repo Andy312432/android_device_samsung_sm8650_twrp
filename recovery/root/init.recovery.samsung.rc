@@ -6,3 +6,7 @@ on init
 
  #to cut charging battery path
     write /sys/class/power_supply/battery/siop_level 0
+    
+    #for decrypt
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    import /init.recovery.qcom_decrypt.fbe.rc

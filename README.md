@@ -4,7 +4,7 @@
 [Install Instructions](https://xdaforums.com/t/sm-s928b-0-userdata_aio-odin-flashable-to-automatically-remove-encryption-make-rom-rw-install-twrp-root-use-on-stock-firmware-unlocked-bootloaders.4660645/)
 
 # Special Thanks 
-[Archer](https://github.com/archer3770) For his guide and s24ultra device tree
+[Archer](https://github.com/archer3770) For his guide and s24ultra device tree,
 [jrkruse](https://xdaforums.com/m/jrkruse.1949695/) For userdata aio script.
 
 ## Clone repo
